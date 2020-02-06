@@ -49,8 +49,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
-                ['Pending', 2],
+                ['Passing', 2],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -82,8 +82,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
-                {label: '2 requirements pending'},
+                {label: '2 requirements tested successfully'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -182,7 +182,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2020 20:17</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2020 20:32</span>
     <br style="clear:left"/>
 </div>
 
@@ -222,9 +222,9 @@
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
                                     <td>2</td>
-                                    <td>0</td>
-                                    <td>0</td>
                                     <td>2</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -253,9 +253,9 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>2</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>2 (100%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -269,14 +269,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>2</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>2 (100%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">0 seconds</td>
+                <td colspan="5">4 seconds</td>
         </tr>
         </body>
     </table>
@@ -304,11 +304,11 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="381f7ad9c86b4513c2c42466ebc7cae16d64b1b15290bf7f1b6301ee66b9c5ab.html" class="ellipsis"
@@ -319,19 +319,19 @@
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">2</td>
+                                <td class="SUCCESS-text">3</td>
 
 
-                                <td class="PENDING-text" data-sort="2020-02-06 20:17:58">20:17:58</td>
+                                <td class="SUCCESS-text" data-sort="2020-02-06 20:32:58">20:32:58</td>
 
-                                <td class="PENDING-text">0.27</td>
+                                <td class="SUCCESS-text">2.89</td>
                             </tr>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="1f0c95d0a59922c48aa3390711ca8af0e11efcbf4ff1f89cead4755f722f08cd.html" class="ellipsis"
@@ -342,12 +342,12 @@
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">2</td>
+                                <td class="SUCCESS-text">3</td>
 
 
-                                <td class="PENDING-text" data-sort="2020-02-06 20:17:59">20:17:59</td>
+                                <td class="SUCCESS-text" data-sort="2020-02-06 20:33:01">20:33:01</td>
 
-                                <td class="PENDING-text">0</td>
+                                <td class="SUCCESS-text">1.1</td>
                             </tr>
                         </tbody>
                     </table>

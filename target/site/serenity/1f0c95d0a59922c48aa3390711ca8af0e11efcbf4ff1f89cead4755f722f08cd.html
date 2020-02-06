@@ -78,7 +78,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2020 20:17</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2020 20:33</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -118,9 +118,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="pending-color">
+                                    <span class="success-color">
                                     Post end point returns 404 status when GET method is used
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -154,28 +154,105 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-PENDING">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
                     <td>
                         <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
                             <span class="top-level-step">
                                 When User sends GET request to the endpoint "/post"
                             </span>
+                            </a>
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">PENDING</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">1.1s</span></td>
                 </tr>
-                <tr class="test-PENDING">
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET https://jsonplaceholder.typicode.com/post
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-2">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-2" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET https://jsonplaceholder.typicode.com/post
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 404</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Thu, 06 Feb 2020 19:33:02 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>Set-Cookie: __cfduid=db497ca1a624caed78535ae1ae85fb6ce1581017581; expires=Sat, 07-Mar-20 19:33:01 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax<br>X-Powered-By: Express<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=14400<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: EXPIRED<br>Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;<br>Server: cloudflare<br>CF-RAY: 560f8daafe95d47b-HAM</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    <br>}</pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre>__cfduid=db497ca1a624caed78535ae1ae85fb6ce1581017581;Path=/;Domain=.typicode.com;HttpOnly;Expires=3/7/20 7:33 PM</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="1"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -185,13 +262,13 @@
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">PENDING</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
                     <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-PENDING">
+                <tr class="test-SUCCESS">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>PENDING</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.1s</em></span></td>
                 </tr>
 
             </table>
