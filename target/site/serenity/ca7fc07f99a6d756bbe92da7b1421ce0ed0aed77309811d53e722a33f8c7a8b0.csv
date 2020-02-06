@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Resource /post should be renamed to /posts","Posts endpoint accepts HTTP GET and provide all the available posts with status code as 200","PENDING","2020-02-06T20:17:58.984+01:00[Europe/Berlin]","0.0","0.27"
+"Resource /post should be renamed to /posts","Post end point returns 404 status when GET method is used","PENDING","2020-02-06T20:17:59.251+01:00[Europe/Berlin]","0.0","0.0"
