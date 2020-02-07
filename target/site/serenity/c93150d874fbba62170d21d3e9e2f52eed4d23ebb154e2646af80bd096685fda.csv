@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Resource /post should be renamed to /posts","Posts endpoint accepts HTTP GET and provide all the available posts with status code as 200","SUCCESS","2020-02-06T20:32:58.855+01:00[Europe/Berlin]","0.0","2.89"
-"Resource /post should be renamed to /posts","Post end point returns 404 status when GET method is used","SUCCESS","2020-02-06T20:33:01.742+01:00[Europe/Berlin]","0.0","1.1"
+"Resource /post should be renamed to /posts","Posts endpoint accepts HTTP GET and provide all the available posts with status code as 200","SUCCESS","2020-02-07T06:19:01.339+01:00[Europe/Berlin]","0.0","4.09"
+"Resource /post should be renamed to /posts","Post end point returns 404 status when GET method is used","SUCCESS","2020-02-07T06:19:05.431+01:00[Europe/Berlin]","0.0","0.21"
+"Resource /post should be renamed to /posts","The endpoint /posts with ID greater than 100 will give 404 error","SUCCESS","2020-02-07T06:19:06.72+01:00[Europe/Berlin]","0.0","0.04"

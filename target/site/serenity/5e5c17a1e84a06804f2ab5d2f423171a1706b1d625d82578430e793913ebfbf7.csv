@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Resource /post should be renamed to /posts","The endpoint /posts returns 500 internal server error status when HTTP POST method is used with the payload size greater than 10MB","ERROR","2020-02-07T06:19:06.765+01:00[Europe/Berlin]","0.0","0.08"

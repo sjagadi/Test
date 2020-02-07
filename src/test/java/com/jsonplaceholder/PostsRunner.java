@@ -1,9 +1,6 @@
 package com.jsonplaceholder;
-
 import org.junit.runner.RunWith;
-
 import com.jsonplaceholder.base.BaseTest;
-
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
