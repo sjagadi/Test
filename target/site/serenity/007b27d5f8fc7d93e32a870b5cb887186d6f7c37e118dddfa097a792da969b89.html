@@ -78,7 +78,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-02-2020 06:19</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-02-2020 09:38</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -118,9 +118,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="pending-color">
+                                    <span class="success-color">
                                     The endpoint /posts with specific ID returns the post with same ID when GET method is used
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -137,7 +137,7 @@
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">When User sends GET request to the &lt;Endpoint&gt; with id as &lt;ID&gt;<br>Then It returns status code &lt;StatusCode&gt;<br>And Verify it has &lt;ID&gt;, &lt;Title&gt; and &lt;Body&gt;</div>
+        <div class="scenario">When User sends GET request to the "posts" with id as "&lt;ID&gt;"<br>Then It returns status code "&lt;StatusCode&gt;"<br>And Verify it has "&lt;ID&gt;", "&lt;Title&gt;" and "&lt;Body&gt;"</div>
 
     </div>
 
@@ -155,7 +155,6 @@
                 <thead>
                 <tr>
                     <th>#</th>
-                        <th>Endpoint</th>
                         <th>ID</th>
                         <th>Statuscode</th>
                         <th>Title</th>
@@ -164,29 +163,14 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="test-PENDING"><a href="#0">1</a></td>
-                            <td class="test-PENDING"><a href="#0">/posts</a>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">1</a>
                             </td>
-                            <td class="test-PENDING"><a href="#0">1</a>
+                            <td class="test-SUCCESS"><a href="#0">200</a>
                             </td>
-                            <td class="test-PENDING"><a href="#0">200</a>
+                            <td class="test-SUCCESS"><a href="#0">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</a>
                             </td>
-                            <td class="test-PENDING"><a href="#0">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</a>
-                            </td>
-                            <td class="test-PENDING"><a href="#0">quia et suscipit<br>suscipit recusandae consequuntur expedita et cum<br>reprehenderit molestiae ut ut quas totam<br>nostrum rerum est autem sunt rem eveniet architecto</a>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td class="test-PENDING"><a href="#1">2</a></td>
-                            <td class="test-PENDING"><a href="#1">/posts</a>
-                            </td>
-                            <td class="test-PENDING"><a href="#1">1</a>
-                            </td>
-                            <td class="test-PENDING"><a href="#1">200</a>
-                            </td>
-                            <td class="test-PENDING"><a href="#1">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</a>
-                            </td>
-                            <td class="test-PENDING"><a href="#1">quia et suscipit<br>suscipit recusandae consequuntur expedita et cum<br>reprehenderit molestiae ut ut quas totam<br>nostrum rerum est autem sunt rem eveniet architecto</a>
+                            <td class="test-SUCCESS"><a href="#0">quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</a>
                             </td>
                     </tr>
                 </tbody>
@@ -209,12 +193,12 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-PENDING">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 pending-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -223,14 +207,14 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                The endpoint /posts with specific ID returns the post with same ID when GET method is used #1: {Endpoint=/posts, ID=1, StatusCode=200, Title=sunt aut facere repellat provident occaecati excepturi optio reprehenderit, Body=quia et suscipit<br>suscipit recusandae consequuntur expedita et cum<br>reprehenderit molestiae ut ut quas totam<br>nostrum rerum est autem sunt rem eveniet architecto}
+                                The endpoint /posts with specific ID returns the post with same ID when GET method is used #1: {ID=1, StatusCode=200, Title=sunt aut facere repellat provident occaecati excepturi optio reprehenderit, Body=quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto}
                             </span>
                             </a>
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">PENDING</span></td>
-                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.23s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -240,12 +224,93 @@
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                When User sends GET request to the "posts" with id as "1"
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.15s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                When User sends GET request to the /posts with id as 1
+                                GET https://jsonplaceholder.typicode.com/posts?id=1
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-3">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-3" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET https://jsonplaceholder.typicode.com/posts?id=1
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Sat, 08 Feb 2020 08:38:34 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Set-Cookie: __cfduid=df734c5151af35a2c782a65e3166638711581151114; expires=Mon, 09-Mar-20 08:38:34 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax<br>X-Powered-By: Express<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=14400<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;134-QtF0EaiifRh1Z3cEspXIXV0RoQY&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: HIT<br>Age: 4282<br>Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;<br>Server: cloudflare<br>CF-RAY: 561c49c12bf43ddc-PRG<br>Content-Encoding: gzip</pre>
+                                <h5>Response Body</h5>
+                                    <pre>[<br>    {<br>        &quot;userId&quot;: 1,<br>        &quot;id&quot;: 1,<br>        &quot;title&quot;: &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;,<br>        &quot;body&quot;: &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;<br>    }<br>]</pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre>__cfduid=df734c5151af35a2c782a65e3166638711581151114;Path=/;Domain=.typicode.com;HttpOnly;Expires=3/9/20 8:38 AM</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Then It returns status code "200"
                             </span>
 
                         </div>
@@ -262,121 +327,22 @@
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then It returns status code 200
+                                And Verify it has "1", "sunt aut facere repellat provident occaecati excepturi optio reprehenderit" and "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-PENDING">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                And Verify it has 1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit and quia et suscipit<br>suscipit recusandae consequuntur expedita et cum<br>reprehenderit molestiae ut ut quas totam<br>nostrum rerum est autem sunt rem eveniet architecto
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">0.07s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-PENDING">
-                    <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 pending-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block;">
-                            <span class="top-level-step">
-                                The endpoint /posts with specific ID returns the post with same ID when GET method is used #2: {Endpoint=/posts, ID=1, StatusCode=200, Title=sunt aut facere repellat provident occaecati excepturi optio reprehenderit, Body=quia et suscipit<br>suscipit recusandae consequuntur expedita et cum<br>reprehenderit molestiae ut ut quas totam<br>nostrum rerum est autem sunt rem eveniet architecto}
-                            </span>
-                            </a>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">PENDING</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
-                </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection1" style="display:none; width:100%">
-
                 <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                When User sends GET request to the /posts with id as 1
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Then It returns status code 200
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-                <tr class="test-PENDING">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                And Verify it has 1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit and quia et suscipit<br>suscipit recusandae consequuntur expedita et cum<br>reprehenderit molestiae ut ut quas totam<br>nostrum rerum est autem sunt rem eveniet architecto
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">PENDING</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-PENDING">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>PENDING</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>1.07s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.61s</em></span></td>
                 </tr>
 
             </table>

@@ -50,10 +50,10 @@
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
                 ['Passing', 4],
-                ['Pending', 2],
+                ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 0],
-                ['Errors',  1],
+                ['Failing', 1],
+                ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -83,10 +83,10 @@
             },
             series: [
                 {label: '4 requirements tested successfully'},
-                {label: '2 requirements pending'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
-                {label: '0} requirements with failures'},
-                {label: '1} requirements with errors'},
+                {label: '1} requirements with failures'},
+                {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -182,7 +182,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-02-2020 06:19</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-02-2020 09:38</span>
     <br style="clear:left"/>
 </div>
 
@@ -221,10 +221,10 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>7</td>
+                                    <td>5</td>
                                     <td>4</td>
                                     <td>1</td>
-                                    <td>2</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -252,10 +252,10 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>7</td>
-            <td>4 (57%)</td>
-            <td>1 (14%)</td>
-            <td>2 (29%)</td>
+            <td>5</td>
+            <td>4 (80%)</td>
+            <td>1 (20%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -268,15 +268,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>7</td>
-            <td>4 (57%)</td>
-            <td>1 (14%)</td>
-            <td>2 (29%)</td>
+            <td>5</td>
+            <td>4 (80%)</td>
+            <td>1 (20%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">5 seconds</td>
+                <td colspan="5">15 seconds</td>
         </tr>
         </body>
     </table>
@@ -322,9 +322,9 @@
                                 <td class="SUCCESS-text">4</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2020-02-07 06:19:01">06:19:01</td>
+                                <td class="SUCCESS-text" data-sort="2020-02-08 09:38:31">09:38:31</td>
 
-                                <td class="SUCCESS-text">4.09</td>
+                                <td class="SUCCESS-text">3.94</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -345,32 +345,9 @@
                                 <td class="SUCCESS-text">3</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2020-02-07 06:19:05">06:19:05</td>
+                                <td class="SUCCESS-text" data-sort="2020-02-08 09:38:35">09:38:35</td>
 
-                                <td class="SUCCESS-text">0.21</td>
-                            </tr>
-
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                                    
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
-                                    <div class="ellipsis">
-
-                                        <a href="007b27d5f8fc7d93e32a870b5cb887186d6f7c37e118dddfa097a792da969b89.html" class="ellipsis"
-                                           title="The endpoint /posts with specific ID returns the post with same ID when GET method is used ">
-                                            The endpoint /posts with specific ID returns the post with same ID when GET method is used&nbsp;(2  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="PENDING-text">8</td>
-
-
-                                <td class="PENDING-text" data-sort="2020-02-07 06:19:05">06:19:05</td>
-
-                                <td class="PENDING-text">1.07</td>
+                                <td class="SUCCESS-text">0.12</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -380,43 +357,66 @@
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="13c1d4acb4c6a16d0a93f815befbd80531ba9dcd41d9dd73c16fecd5938c2a3b.html" class="ellipsis"
-                                           title="The endpoint /posts with ID greater than 100 will give 404 error ">
-                                            The endpoint /posts with ID greater than 100 will give 404 error&nbsp;(2  examples)
+                                        <a href="007b27d5f8fc7d93e32a870b5cb887186d6f7c37e118dddfa097a792da969b89.html" class="ellipsis"
+                                           title="The endpoint /posts with specific ID returns the post with same ID when GET method is used ">
+                                            The endpoint /posts with specific ID returns the post with same ID when GET method is used&nbsp;(1  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">6</td>
+                                <td class="SUCCESS-text">5</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2020-02-07 06:19:06">06:19:06</td>
+                                <td class="SUCCESS-text" data-sort="2020-02-08 09:38:35">09:38:35</td>
 
-                                <td class="SUCCESS-text">0.04</td>
+                                <td class="SUCCESS-text">1.61</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="13c1d4acb4c6a16d0a93f815befbd80531ba9dcd41d9dd73c16fecd5938c2a3b.html" class="ellipsis"
+                                           title="The endpoint /posts with ID greater than 100 will give 404 error Assertion error: 1 expectation failed...">
+                                            The endpoint /posts with ID greater than 100 will give 404 error&nbsp;(1  examples)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="FAILURE-text">4</td>
+
+
+                                <td class="FAILURE-text" data-sort="2020-02-08 09:38:36">09:38:36</td>
+
+                                <td class="FAILURE-text">0.26</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="6c6cc1ddd71923d634fbb1cc75d2069614e5087234fccf39b79033bc261713f1.html" class="ellipsis"
-                                           title="The endpoint /posts returns 500 internal server error status when HTTP POST method is used with the payload size greater than 10MB Null pointer exception">
+                                           title="The endpoint /posts returns 500 internal server error status when HTTP POST method is used with the payload size greater than 10MB ">
                                             The endpoint /posts returns 500 internal server error status when HTTP POST method is used with the payload size greater than 10MB
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">3</td>
+                                <td class="SUCCESS-text">3</td>
 
 
-                                <td class="ERROR-text" data-sort="2020-02-07 06:19:06">06:19:06</td>
+                                <td class="SUCCESS-text" data-sort="2020-02-08 09:38:37">09:38:37</td>
 
-                                <td class="ERROR-text">0.08</td>
+                                <td class="SUCCESS-text">8.59</td>
                             </tr>
                         </tbody>
                     </table>

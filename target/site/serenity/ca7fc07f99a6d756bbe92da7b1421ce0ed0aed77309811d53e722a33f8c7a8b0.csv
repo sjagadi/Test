@@ -1,2 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Resource /post should be renamed to /posts","The endpoint /posts with specific ID returns the post with same ID when GET method is used","PENDING","2020-02-07T06:19:05.649+01:00[Europe/Berlin]","0.0","1.07"
