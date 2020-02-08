@@ -21,7 +21,7 @@ Feature: Resource /post should be renamed to /posts
 		Then It returns status code "<StatusCode>"		
 		Examples:
 		|	ID	|	StatusCode	|
-		|	101	|	404			|
+		|	101	|	200			|
 		
 	Scenario: The endpoint /posts returns 500 internal server error status when HTTP POST method is used with the payload size greater than 10MB
 		When User sends POST request to the endpoint "posts" with payload size greater than 10mb
